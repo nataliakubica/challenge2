@@ -1,0 +1,72 @@
+body{
+    color: black;
+}
+
+#tekst{
+    grid-area: tekst;
+    font-family: Silom;
+    font-size: 20px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#tijd{
+    grid-area: tijd;
+    font-size: 40px;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid; 
+    background-color: white;
+    padding: 20px;
+    align-content: center;
+}
+.container{
+    width: 300px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 600px) {
+
+#tekst{
+    grid-area: tekst;
+    font-family: Silom;
+    font-size: 30px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#tijd{
+    grid-area: tijd;
+    font-size: 50px;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid; 
+    background-color: white;
+    padding: 20px;
+}
+
+
+@media only screen and (min-width: 900px) {
+
+#tekst{
+    grid-area: tekst;
+    font-family: Silom;
+    font-size: 40px;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#tijd{
+    grid-area: tijd;
+    font-size: 60px;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid; 
+    background-color: white;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
